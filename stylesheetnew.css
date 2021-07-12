@@ -1,0 +1,94 @@
+body{
+  background-color:bisque;
+}
+  
+video {
+  --width: 45%;
+  width: var(--width);
+  height: calc(var(--width) * 0.75);
+  margin: 0 0 20px 0;
+  vertical-align: top;
+}
+
+video#localVideo {
+  margin: 0 20px 20px 0;
+}
+
+
+.box{
+  text-align:center;
+  top: 30px
+}
+
+
+p{
+  color: #7c795d;
+  font-family: 'Trocchi', serif; 
+  font-size: 45px; 
+  font-weight: normal; 
+  line-height: 48px; 
+  margin: 0;
+  text-align:center;
+}
+
+
+button {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  font-family: 'Trocchi', serif; 
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+button#startButton:hover {
+  opacity: 1
+}
+button#callButton:hover{
+  opacity:1
+}
+button#hangupButton:hover{
+  opacity:1
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+  
